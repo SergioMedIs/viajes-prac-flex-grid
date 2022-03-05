@@ -1,0 +1,33 @@
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid rgb(58, 34, 34);
+    text-align: center;
+    /*flex-direction: column;*/
+
+    
+}
+.container-flex .item-flex{
+    background-color: rgb(87, 110, 151);
+    width: 10%;
+    flex: 0 32%;
+    margin-bottom: 1rem;
+    border-radius: 3px ;
+}.navbar{
+    background-color: #0f4775;
+    height: 48px;
+}
+.navbar a {
+    float:  right;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    .navbar a:hover{
+        background-color: rgb(74, 138, 175);
+        color:black;
+    }
+

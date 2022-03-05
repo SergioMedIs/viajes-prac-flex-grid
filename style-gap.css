@@ -1,0 +1,29 @@
+.tab-grid{
+     display: grid;
+     margin:  auto; 
+     width:270px ;
+     grid-template-columns: repeat(3, 1fr)  ;
+     grid-gap:15px;
+
+    
+}
+.item-grid{
+    justify-self: center;
+    align-self: center;
+}
+.navbar{
+    background-color: #0f4775;
+    height: 48px;
+}
+.navbar a {
+    float:  right;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    .navbar a:hover{
+        background-color: rgb(74, 138, 175);
+        color:black;
+    }
